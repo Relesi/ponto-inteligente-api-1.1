@@ -1,19 +1,2 @@
-language: java
-jdk:
-  - openjdk7
-before_script: travis/before_script.sh
-script: travis/script.sh
-branches:
-  only:
-  - development
-  - master
-deploy:
-  provider: releases
-  api_key:
-    secure: xxx
-  file: Gameeso-Android-SDK.zip
-  skip_cleanup: true
-  on:
-    repo: Gameeso/openkit-android
-    tags: true
-    all_branches: true
+before_install:
+  - chmod +x mvnw
