@@ -24,12 +24,12 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.kazale.pontointeligente.api.dtos.LancamentoDto;
-import com.kazale.pontointeligente.api.entities.Funcionario;
-import com.kazale.pontointeligente.api.entities.Lancamento;
-import com.kazale.pontointeligente.api.enums.TipoEnum;
-import com.kazale.pontointeligente.api.services.FuncionarioService;
-import com.kazale.pontointeligente.api.services.LancamentoService;
+import com.relesi.pontointeligente.api.dtos.LancamentoDto;
+import com.relesi.pontointeligente.api.entities.Funcionario;
+import com.relesi.pontointeligente.api.entities.Lancamento;
+import com.relesi.pontointeligente.api.enums.TipoEnum;
+import com.relesi.pontointeligente.api.services.FuncionarioService;
+import com.relesi.pontointeligente.api.services.LancamentoService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

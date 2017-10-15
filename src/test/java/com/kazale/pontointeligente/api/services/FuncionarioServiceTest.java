@@ -16,8 +16,9 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.kazale.pontointeligente.api.entities.Funcionario;
-import com.kazale.pontointeligente.api.repositories.FuncionarioRepository;
+import com.relesi.pontointeligente.api.entities.Funcionario;
+import com.relesi.pontointeligente.api.repositories.FuncionarioRepository;
+import com.relesi.pontointeligente.api.services.FuncionarioService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

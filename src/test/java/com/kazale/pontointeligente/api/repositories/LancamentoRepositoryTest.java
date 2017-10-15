@@ -17,12 +17,15 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.kazale.pontointeligente.api.entities.Empresa;
-import com.kazale.pontointeligente.api.entities.Funcionario;
-import com.kazale.pontointeligente.api.entities.Lancamento;
-import com.kazale.pontointeligente.api.enums.PerfilEnum;
-import com.kazale.pontointeligente.api.enums.TipoEnum;
-import com.kazale.pontointeligente.api.utils.PasswordUtils;
+import com.relesi.pontointeligente.api.entities.Empresa;
+import com.relesi.pontointeligente.api.entities.Funcionario;
+import com.relesi.pontointeligente.api.entities.Lancamento;
+import com.relesi.pontointeligente.api.enums.PerfilEnum;
+import com.relesi.pontointeligente.api.enums.TipoEnum;
+import com.relesi.pontointeligente.api.repositories.EmpresaRepository;
+import com.relesi.pontointeligente.api.repositories.FuncionarioRepository;
+import com.relesi.pontointeligente.api.repositories.LancamentoRepository;
+import com.relesi.pontointeligente.api.utils.PasswordUtils;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

@@ -20,8 +20,9 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.kazale.pontointeligente.api.entities.Lancamento;
-import com.kazale.pontointeligente.api.repositories.LancamentoRepository;
+import com.relesi.pontointeligente.api.entities.Lancamento;
+import com.relesi.pontointeligente.api.repositories.LancamentoRepository;
+import com.relesi.pontointeligente.api.services.LancamentoService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
