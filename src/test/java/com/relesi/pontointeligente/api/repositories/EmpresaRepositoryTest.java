@@ -1,4 +1,4 @@
-package com.kazale.pontointeligente.api.repositories;
+package com.relesi.pontointeligente.api.repositories;
 
 import static org.junit.Assert.assertEquals;
 

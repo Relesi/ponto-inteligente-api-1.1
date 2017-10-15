@@ -1,4 +1,4 @@
-package com.kazale.pontointeligente.api;
+package com.relesi.pontointeligente.api;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

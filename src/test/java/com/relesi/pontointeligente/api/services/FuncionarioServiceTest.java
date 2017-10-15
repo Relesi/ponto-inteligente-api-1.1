@@ -1,4 +1,4 @@
-package com.kazale.pontointeligente.api.services;
+package com.relesi.pontointeligente.api.services;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;

@@ -1,4 +1,4 @@
-package com.kazale.pontointeligente.api.controllers;
+package com.relesi.pontointeligente.api.controllers;
 
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
